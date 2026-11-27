@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" role="img" aria-labelledby="title desc">
+<title id="title">Miniatura de GAME-WORLD</title><desc id="desc">Isla flotante con un portal violeta, estrellas y vegetación.</desc>
+<defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#25104c"/><stop offset="1" stop-color="#061c2c"/></linearGradient><linearGradient id="land" x2=".8" y2="1"><stop stop-color="#c7ff35"/><stop offset="1" stop-color="#318c83"/></linearGradient><radialGradient id="portal"><stop stop-color="#fff"/><stop offset=".35" stop-color="#d5a2ff"/><stop offset="1" stop-color="#8b5cf6"/></radialGradient></defs>
+<rect width="360" height="190" rx="14" fill="url(#sky)"/><g fill="#e6d5ff"><circle cx="28" cy="25" r="2"/><circle cx="310" cy="35" r="1.5"/><circle cx="260" cy="18" r="2"/><circle cx="64" cy="76" r="1.5"/></g>
+<ellipse cx="180" cy="117" rx="128" ry="22" fill="#a855f7" opacity=".22"/><path d="m58 103 122-48 125 48-125 49Z" fill="url(#land)" stroke="#d5ff79" stroke-width="3"/><path d="m58 103 122 49-18 25-65-10-30-27Z" fill="#352054"/><path d="m180 152 125-49-18 40-70 26-55 8Z" fill="#1c1436"/>
+<path d="M155 103V67a25 25 0 0 1 50 0v36" fill="#180b2d" stroke="#d99cff" stroke-width="5"/><path d="M164 102V68a16 16 0 0 1 32 0v34" fill="url(#portal)"/><path d="m94 93 12-28 12 28m113 8 10-25 10 25" fill="#3d9c60" stroke="#baff45" stroke-width="2"/><g fill="#ff70cf"><circle cx="80" cy="48" r="5"/><circle cx="285" cy="62" r="5"/></g>
+</svg>

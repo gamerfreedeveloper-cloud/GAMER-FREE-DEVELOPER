@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="gwTitle gwDesc">
+              <title id="gwTitle">GAME-WORLD: isla de juego flotante</title><desc id="gwDesc">Una isla geométrica suspendida en el espacio, con un portal brillante, árboles pixelados y un mando de videojuegos.</desc>
+              <defs>
+                <linearGradient id="gwSky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b0a36"/><stop offset=".55" stop-color="#25125a"/><stop offset="1" stop-color="#071b30"/></linearGradient>
+                <linearGradient id="gwLand" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#baff45"/><stop offset=".5" stop-color="#55d875"/><stop offset="1" stop-color="#285b86"/></linearGradient>
+                <linearGradient id="gwRock" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7541a9"/><stop offset="1" stop-color="#17102d"/></linearGradient>
+                <radialGradient id="gwPortal"><stop stop-color="#f9eaff"/><stop offset=".22" stop-color="#e5a4ff"/><stop offset=".52" stop-color="#aa32ff"/><stop offset="1" stop-color="#4510a7"/></radialGradient>
+                <filter id="gwGlow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              </defs>
+              <rect width="720" height="500" fill="url(#gwSky)"/>
+              <g fill="#e8d7ff" opacity=".8"><circle cx="68" cy="62" r="2"/><circle cx="130" cy="120" r="1.5"/><circle cx="245" cy="53" r="2"/><circle cx="620" cy="75" r="2"/><circle cx="665" cy="178" r="1.4"/><circle cx="560" cy="34" r="1.5"/><circle cx="85" cy="350" r="1.5"/><circle cx="600" cy="390" r="2"/></g>
+              <g class="gw-orbit" fill="none" stroke="#a855f7" opacity=".42"><ellipse cx="365" cy="245" rx="305" ry="105" transform="rotate(-13 365 245)" stroke-width="2"/><ellipse cx="365" cy="245" rx="260" ry="78" transform="rotate(19 365 245)" stroke-width="1.2"/></g>
+              <g class="gw-float"><path d="m160 300 200-90 222 81-202 105Z" fill="url(#gwLand)" stroke="#d8ff77" stroke-width="5"/><path d="m160 300 220 96-24 65-93-24-40-48-43-10Z" fill="url(#gwRock)"/><path d="m380 396 202-105-34 91-85 66-97 13Z" fill="#21153d" stroke="#7c51be" stroke-width="3"/><path d="m160 300 200-90 222 81-202 105Z" fill="none" stroke="#e0ff79" stroke-width="4" filter="url(#gwGlow)"/>
+                <g fill="#3c8d52" stroke="#baff45" stroke-width="2"><path d="m215 276 15-48 14 48Z"/><path d="m235 278 13-35 14 35Z"/><path d="m520 277 15-50 15 50Z"/><path d="m490 283 12-38 12 38Z"/></g>
+                <g fill="#7a45aa" stroke="#d3a0ff" stroke-width="2"><path d="m225 228 12-14 12 14-12 14Z"/><path d="m533 228 12-14 12 14-12 14Z"/><path d="m272 258 10-12 10 12-10 12Z"/><path d="m470 256 10-12 10 12-10 12Z"/></g>
+                <g transform="translate(347 150)"><ellipse cx="30" cy="95" rx="65" ry="18" fill="#a82dff" opacity=".24" filter="url(#gwGlow)"/><path d="M-2 92V39a33 33 0 0 1 66 0v53" fill="#1a0b30" stroke="#d392ff" stroke-width="7"/><path d="M9 91V41a22 22 0 0 1 44 0v50" fill="url(#gwPortal)" filter="url(#gwGlow)"/><ellipse cx="31" cy="40" rx="17" ry="26" fill="none" stroke="#f9d7ff" stroke-width="3" opacity=".8"/></g>
+                <g transform="translate(455 300) rotate(-9)"><path d="M0 25c3-20 18-26 36-20l23 8 25-8c19-6 34 0 37 20l7 33c2 12-11 20-22 14L86 54H36L16 72C4 78-9 70-7 58Z" fill="#160d27" stroke="#b986ff" stroke-width="4"/><path d="M22 25v25m-12-13h24" stroke="#baff45" stroke-width="5" stroke-linecap="round"/><circle cx="91" cy="30" r="6" fill="#ff4edb"/><circle cx="107" cy="43" r="6" fill="#57f2ff"/><circle cx="82" cy="48" r="4" fill="#c7ff35"/></g>
+                <g fill="#baff45" filter="url(#gwGlow)"><path d="m115 205 7 14 15 2-11 10 3 15-14-7-13 7 3-15-11-10 15-2Z"/><path d="m625 285 5 10 11 2-8 7 2 11-10-5-10 5 2-11-8-7 11-2Z"/></g>
+              </g>
+              <g class="gw-cube" transform="translate(96 120)"><path d="m0 18 24-14 24 14-24 14Z" fill="#baff45"/><path d="M0 18v27l24 14V32Z" fill="#4da86e"/><path d="M48 18v27L24 59V32Z" fill="#247a80"/></g>
+              <g class="gw-cube" transform="translate(580 120) scale(.7)"><path d="m0 18 24-14 24 14-24 14Z" fill="#ff4edb"/><path d="M0 18v27l24 14V32Z" fill="#a43cd0"/><path d="M48 18v27L24 59V32Z" fill="#532a99"/></g>
+              <g fill="#fff" font-family="monospace" font-size="12" opacity=".85"><text x="38" y="455">WORLD SECTOR / 001</text><text x="560" y="455">PORTAL ACTIVE</text></g>
+            </svg>

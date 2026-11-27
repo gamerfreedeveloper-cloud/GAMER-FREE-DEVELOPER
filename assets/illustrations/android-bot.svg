@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 190" role="img" aria-labelledby="title desc">
+<title id="title">Android de GAMER-FREE-DEVELOPER</title><desc id="desc">Robot verde con antenas y ojos oscuros.</desc>
+<defs><linearGradient id="bot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c7ff35"/><stop offset="1" stop-color="#55b82e"/></linearGradient></defs>
+<path d="M39 63c0-26 20-45 51-45s51 19 51 45v14H39V63Z" fill="url(#bot)" stroke="#e1ff87" stroke-width="3"/><path d="m54 20-11-14m83 14 11-14" stroke="#9ce832" stroke-width="5" stroke-linecap="round"/><circle cx="70" cy="49" r="5" fill="#17220c"/><circle cx="110" cy="49" r="5" fill="#17220c"/>
+<path d="M34 82h112v61c0 17-14 31-31 31H65c-17 0-31-14-31-31V82Z" fill="url(#bot)" stroke="#c7ff35" stroke-width="3"/><path d="M17 91v39m146-39v39M66 174v14m48-14v14" stroke="#9ce832" stroke-width="9" stroke-linecap="round"/><path d="M77 89v36m26-36v36" stroke="#16300b" stroke-width="6" stroke-linecap="round"/><path d="M64 67h52" stroke="#16300b" stroke-width="3" stroke-linecap="round"/>
+</svg>

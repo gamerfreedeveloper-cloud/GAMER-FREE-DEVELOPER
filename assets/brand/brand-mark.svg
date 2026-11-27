@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="GAMER-FREE-DEVELOPER">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset=".55" stop-color="#6136c9"/><stop offset="1" stop-color="#172b54"/></linearGradient>
+  <linearGradient id="pad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f2ff"/><stop offset="1" stop-color="#c9f8ff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="31" fill="url(#bg)" stroke="#b9a4ff" stroke-width="3"/>
+<path d="M37 42h54c10 0 17 7 20 19l6 25c2 10-9 17-17 10L85 82H43L28 96c-8 7-19 0-17-10l6-25c3-12 10-19 20-19Z" fill="url(#pad)" stroke="#f3eaff" stroke-width="3"/>
+<path d="M40 56v21m-10-10h21" stroke="#6136c9" stroke-width="7" stroke-linecap="round"/>
+<circle cx="83" cy="60" r="6" fill="#c7ff35" filter="url(#glow)"/><circle cx="98" cy="72" r="6" fill="#53e5ff" filter="url(#glow)"/>
+<circle cx="76" cy="78" r="4" fill="#ff70cf"/>
+<path d="M28 31h72" stroke="#c7ff35" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+</svg>
